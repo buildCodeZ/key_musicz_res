@@ -7,7 +7,7 @@ from setuptools import setup, find_packages
 
 setup(
     name = 'key_musicz_res',
-    version = '0.0.2',
+    version = '0.1.0',
     keywords='key_musicz_res',
     long_description=open('README.md', 'r', encoding="utf-8").read(),
     long_description_content_type='text/markdown',
@@ -19,5 +19,5 @@ setup(
     packages = find_packages(),
     include_package_data = True,
     platforms = 'any',
-    install_requires = ['key_musicz>=0.1.6'],
+    install_requires = ['key_musicz>=0.1.8'],
 )
